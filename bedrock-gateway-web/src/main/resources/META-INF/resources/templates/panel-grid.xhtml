@@ -1,0 +1,30 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<ui:composition xmlns:ui="http://xmlns.jcp.org/jsf/facelets" xmlns:f="jakarta.faces.core" xmlns:h="jakarta.faces.html"
+  xmlns:p="http://primefaces.org/ui">
+  <h:panelGrid id="#{prefix}-panel-grid" columns="5" style="margin-bottom: 10px">
+    <h:panelGroup id="#{prefix}-temp-panel-group">
+      <h5>Temperature</h5>
+      <p:inputText id="#{prefix}-temp-slider" value="#{sandboxView.temperature}" validatorMessage="Value is required"/>
+      <p:slider for="#{prefix}-temp-slider" maxValue="1.0" step="0.1"/>
+    </h:panelGroup>
+    <h:panelGroup id="#{prefix}-topp-panel-group">
+      <h5>Top P</h5>
+      <p:inputText id="#{prefix}-topp-slider" value="#{sandboxView.topP}" validatorMessage="Value is required"/>
+      <p:slider for="#{prefix}-topp-slider" maxValue="1.0" step="0.1"/>
+    </h:panelGroup>
+    <h:panelGroup id="#{prefix}-resp-length-panel-group">
+      <h5>Max Tokens</h5>
+      <p:inputText id="#{prefix}-resp-length-slider" value="#{sandboxView.responseLength}" validatorMessage="Value is required"/>
+      <p:slider for="#{prefix}-resp-length-slider" minValue="2" maxValue="2048"/>
+    </h:panelGroup>
+    <h:panelGroup id="#{prefix}-prompt-panel-group">
+      <h5>Prompt</h5>
+      <p:inputTextarea id="#{prefix}-prompt" rows="6" cols="40" minQueryLength="2" value="#{sandboxView.prompt}"/>
+    </h:panelGroup>
+    <h:panelGroup id="#{prefix}-resp-panel-group" rendered="${!empty sandboxView.response}">
+      <h5>Response</h5>
+      <h:outputText id="#{prefix}-resp-out" value="#{sandboxView.response}"/>
+    </h:panelGroup>
+  </h:panelGrid>
+</ui:composition>

@@ -1,4 +1,5 @@
-aws cloudformation delete-stack --stack-name rest-gateway-stack
+#!/bin/bash
+aws cloudformation delete-stack --stack-name bedrock-gateway-stack
 if [ -f bucket-name.txt ]
 then
   ARTIFACT_BUCKET=$(cat bucket-name.txt)

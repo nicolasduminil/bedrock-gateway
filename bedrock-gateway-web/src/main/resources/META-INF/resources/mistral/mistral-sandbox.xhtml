@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<!DOCTYPE composition PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<ui:composition xmlns:ui="http://xmlns.jcp.org/jsf/facelets" template="../templates/template.xhtml"
+                xmlns:h="http://xmlns.jcp.org/jsf/html"
+                xmlns:p="http://primefaces.org/ui">
+  <ui:define name="title">Mistral sand-box</ui:define>
+  <ui:define name="content">
+    <h3>Using Mistral 7B Foundation Model</h3>
+    <h:form id="mistral-main-form">
+      <ui:include src="../templates/panel-grid.xhtml">
+        <ui:param name="prefix" value="mistral"/>
+      </ui:include>
+      <p:commandButton id="mistral-cmd-button" value="Run" styleClass="rounded-button" ajax="false"
+        action="#{sandboxView.runMistral()}"/>
+    </h:form>
+  </ui:define>
+</ui:composition>

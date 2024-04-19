@@ -1,0 +1,68 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:ui="http://xmlns.jcp.org/jsf/facelets" xmlns:h="http://xmlns.jcp.org/jsf/html"
+  xmlns:p="http://primefaces.org/ui" xmlns:f="http://xmlns.jcp.org/jsf/core">
+<f:view contentType="text/html" encoding="UTF-8">
+  <h:head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+    <f:facet name="last">
+      <h:outputStylesheet library="css" name="default.css"/>
+    </f:facet>
+    <title><ui:insert name="title">Please add a proper title for this page !</ui:insert></title>
+  </h:head>
+  <h:body>
+    <h:form id="navForm">
+      <ui:insert name="menu">
+        <p:menubar id="navBar">
+          <p:menuitem id="home" value="Home" url="/index.xhtml"/>
+          <p:submenu id="titan" label="Titan Model">
+            <p:menuitem id="titan-id" value="Titan sandbox" url="/titan/titan-sandbox.xhtml"/>
+          </p:submenu>
+          <p:submenu id="mistral" label="Mistral Model">
+            <p:menuitem id="mistral-id" value="Mistral sandbox" url="/mistral/mistral-sandbox.xhtml"/>
+          </p:submenu>
+        </p:menubar>
+      </ui:insert>
+      <h1>Welcome to the Amazon Bedrock Sandbox</h1>
+      <p:panel>
+        <h:panelGrid columns="2">
+          <h:graphicImage value="/img/simplex.png" alt="Simplex logo" />
+          <div>
+            <p>
+              <strong style="fontfamily: Arial;">The Amazon Bedrock Sandbox is deployed !</strong>
+              <br/>
+              <span style="fontFamily: Tahoma; font-size: 0.85em">Here are some of the features this service provides:</span>
+            </p>
+          </div>
+          <div style="fontfamily: Garamond; font-size: 0.70em;">
+            <ul style="margin-left: 100px; padding: 0; text-align: left;">
+              <li>Ability to test different FMs (Foundation Models) via the Amazon Bedrock service</li>
+              <li>Ability to dynamically configure each LLM parameters</li>
+              <li>Ability to build text generators</li>
+              <li>Ability to build text summarizers</li>
+              <li>Ability to build conversational assistants and chatbots</li>
+              <li>The FMs suported in the EU-WEST AZ are: Titan Text G1 and Mistral 7/8</li>
+              <li>Claude 2/3 is also supported but require special approvals </li>
+              <li>Other AZs, like US-EAST-1, support additional FMs like Llama2, Jurasic2</li>
+              <li>Fully integrated with AWS REST Gateway</li>
+              <li>Fully integrated with AWS Serverless</li>
+              <li>Fully integrated with Quarkus</li>
+            </ul>
+          </div>
+        </h:panelGrid>
+      </p:panel>
+    </h:form>
+    <p:panel id="content" style="text-align: center">
+      <ui:insert name="content">Content</ui:insert>
+    </p:panel>
+    <div style="display: flex; justify-content: center; text-align: center; padding: 5px; background-color: #45a1ff; color: #000;">
+      <p style="font-size: 0.85em;">
+        Powered by <a href="https://quarkus.io/" style="color: #000;">Quarkus</a>
+        and <a href="https://www.primefaces.org/" style="color: #000;">PrimeFaces</a>
+        <br/>
+        <span style="font-size: 0.65em;">&copy; 2024 Simplex Software</span>
+      </p>
+    </div>
+  </h:body>
+</f:view>
+</html>
