@@ -1,55 +1,66 @@
-START RequestId: 5764c8ac-4499-431b-9c37-9c0bd851bfda Version: $LATEST
+START RequestId: 9fa7623c-6acc-49d2-b567-5c71afd98026 Version: $LATEST
 __  ____  __  _____   ___  __ ____  ______ 
  --/ __ \/ / / / _ | / _ \/ //_/ / / / __/ 
  -/ /_/ / /_/ / __ |/ , _/ ,< / /_/ /\ \   
 --\___\_\____/_/ |_/_/|_/_/|_|\____/___/   
-2024-04-19 18:31:17,538 INFO  [io.quarkus] (main) bedrock-gateway-api 1.0-SNAPSHOT on JVM (powered by Quarkus 3.7.4) started in 1.052s. 
-2024-04-19 18:31:17,539 INFO  [io.quarkus] (main) Profile prod activated. 
-2024-04-19 18:31:17,539 INFO  [io.quarkus] (main) Installed features: [amazon-lambda, cdi, resteasy, resteasy-jsonb, resteasy-multipart, security, smallrye-context-propagation, vertx]
-END RequestId: 9e2900d4-1ad1-47c0-b9f5-97577cfbcce7
-REPORT RequestId: 9e2900d4-1ad1-47c0-b9f5-97577cfbcce7	Init Duration: 0.02 ms	Duration: 3794.97 ms	Billed Duration: 3795 ms	Memory Size: 512 MB	Max Memory Used: 512 MB	
+2024-04-20 15:28:59,785 INFO  [io.quarkus] (main) bedrock-gateway-api 1.0-SNAPSHOT on JVM (powered by Quarkus 3.7.4) started in 0.787s. 
+2024-04-20 15:28:59,786 INFO  [io.quarkus] (main) Profile prod activated. 
+2024-04-20 15:28:59,786 INFO  [io.quarkus] (main) Installed features: [amazon-lambda, cdi, resteasy, resteasy-jsonb, resteasy-multipart, security, smallrye-context-propagation, vertx]
+END RequestId: ddda0433-4cd7-4162-bf18-3f336659a672
+REPORT RequestId: ddda0433-4cd7-4162-bf18-3f336659a672	Init Duration: 0.02 ms	Duration: 3543.53 ms	Billed Duration: 3544 ms	Memory Size: 512 MB	Max Memory Used: 512 MB	
 
-START RequestId: e72d8ec3-125d-4674-935f-612e5680a08a Version: $LATEST
+START RequestId: 52998405-dac2-4071-bf64-d61a8d12f5c0 Version: $LATEST
 __  ____  __  _____   ___  __ ____  ______ 
  --/ __ \/ / / / _ | / _ \/ //_/ / / / __/ 
  -/ /_/ / /_/ / __ |/ , _/ ,< / /_/ /\ \   
 --\___\_\____/_/ |_/_/|_/_/|_|\____/___/   
-2024-04-19 18:31:22,417 INFO  [io.quarkus] (main) bedrock-gateway-api 1.0-SNAPSHOT on JVM (powered by Quarkus 3.7.4) started in 1.053s. 
-2024-04-19 18:31:22,418 INFO  [io.quarkus] (main) Profile prod activated. 
-2024-04-19 18:31:22,418 INFO  [io.quarkus] (main) Installed features: [amazon-lambda, cdi, resteasy, resteasy-jsonb, resteasy-multipart, security, smallrye-context-propagation, vertx]
-END RequestId: 639ed607-db9c-46a5-a05f-86943a05d02d
-REPORT RequestId: 639ed607-db9c-46a5-a05f-86943a05d02d	Init Duration: 0.03 ms	Duration: 3738.55 ms	Billed Duration: 3739 ms	Memory Size: 512 MB	Max Memory Used: 512 MB	
+2024-04-20 15:29:04,178 INFO  [io.quarkus] (main) bedrock-gateway-api 1.0-SNAPSHOT on JVM (powered by Quarkus 3.7.4) started in 0.776s. 
+2024-04-20 15:29:04,179 INFO  [io.quarkus] (main) Profile prod activated. 
+2024-04-20 15:29:04,179 INFO  [io.quarkus] (main) Installed features: [amazon-lambda, cdi, resteasy, resteasy-jsonb, resteasy-multipart, security, smallrye-context-propagation, vertx]
+END RequestId: e150f398-be7e-4bf8-a7e7-61fdde28d240
+REPORT RequestId: e150f398-be7e-4bf8-a7e7-61fdde28d240	Init Duration: 0.03 ms	Duration: 3210.74 ms	Billed Duration: 3211 ms	Memory Size: 512 MB	Max Memory Used: 512 MB	
 
-START RequestId: 1c81dfbf-b410-4b58-a8df-d45100e4589d Version: $LATEST
+START RequestId: 8c023f68-241d-41cf-bfa4-6961cae89df3 Version: $LATEST
 __  ____  __  _____   ___  __ ____  ______ 
  --/ __ \/ / / / _ | / _ \/ //_/ / / / __/ 
  -/ /_/ / /_/ / __ |/ , _/ ,< / /_/ /\ \   
 --\___\_\____/_/ |_/_/|_/_/|_|\____/___/   
-2024-04-19 18:31:27,233 INFO  [io.quarkus] (main) bedrock-gateway-api 1.0-SNAPSHOT on JVM (powered by Quarkus 3.7.4) started in 1.049s. 
-2024-04-19 18:31:27,234 INFO  [io.quarkus] (main) Profile prod activated. 
-2024-04-19 18:31:27,234 INFO  [io.quarkus] (main) Installed features: [amazon-lambda, cdi, resteasy, resteasy-jsonb, resteasy-multipart, security, smallrye-context-propagation, vertx]
-END RequestId: 4836977a-4ea7-41f0-aad9-9871316920d7
-REPORT RequestId: 4836977a-4ea7-41f0-aad9-9871316920d7	Init Duration: 0.03 ms	Duration: 2561.93 ms	Billed Duration: 2562 ms	Memory Size: 512 MB	Max Memory Used: 512 MB	
+2024-04-20 15:29:08,161 INFO  [io.quarkus] (main) bedrock-gateway-api 1.0-SNAPSHOT on JVM (powered by Quarkus 3.7.4) started in 0.801s. 
+2024-04-20 15:29:08,162 INFO  [io.quarkus] (main) Profile prod activated. 
+2024-04-20 15:29:08,162 INFO  [io.quarkus] (main) Installed features: [amazon-lambda, cdi, resteasy, resteasy-jsonb, resteasy-multipart, security, smallrye-context-propagation, vertx]
+END RequestId: 4693ef9e-ebe2-4242-b551-7b5100a566ee
+REPORT RequestId: 4693ef9e-ebe2-4242-b551-7b5100a566ee	Init Duration: 0.03 ms	Duration: 2412.40 ms	Billed Duration: 2413 ms	Memory Size: 512 MB	Max Memory Used: 512 MB	
 
-START RequestId: b4ed5b14-8325-40b3-a9c3-8a3da7c0ac82 Version: $LATEST
+START RequestId: da03fe67-40bb-4a49-b648-39e98ea04921 Version: $LATEST
 __  ____  __  _____   ___  __ ____  ______ 
  --/ __ \/ / / / _ | / _ \/ //_/ / / / __/ 
  -/ /_/ / /_/ / __ |/ , _/ ,< / /_/ /\ \   
 --\___\_\____/_/ |_/_/|_/_/|_|\____/___/   
-2024-04-19 18:31:30,848 INFO  [io.quarkus] (main) bedrock-gateway-api 1.0-SNAPSHOT on JVM (powered by Quarkus 3.7.4) started in 1.047s. 
-2024-04-19 18:31:30,849 INFO  [io.quarkus] (main) Profile prod activated. 
-2024-04-19 18:31:30,849 INFO  [io.quarkus] (main) Installed features: [amazon-lambda, cdi, resteasy, resteasy-jsonb, resteasy-multipart, security, smallrye-context-propagation, vertx]
-END RequestId: 9acfbb95-e33c-4f61-9a87-e7d52443b045
-REPORT RequestId: 9acfbb95-e33c-4f61-9a87-e7d52443b045	Init Duration: 0.06 ms	Duration: 3384.84 ms	Billed Duration: 3385 ms	Memory Size: 512 MB	Max Memory Used: 512 MB	
+2024-04-20 15:29:11,340 INFO  [io.quarkus] (main) bedrock-gateway-api 1.0-SNAPSHOT on JVM (powered by Quarkus 3.7.4) started in 0.777s. 
+2024-04-20 15:29:11,341 INFO  [io.quarkus] (main) Profile prod activated. 
+2024-04-20 15:29:11,341 INFO  [io.quarkus] (main) Installed features: [amazon-lambda, cdi, resteasy, resteasy-jsonb, resteasy-multipart, security, smallrye-context-propagation, vertx]
+END RequestId: 6488eee2-2b4b-4730-8e2e-104ea885e379
+REPORT RequestId: 6488eee2-2b4b-4730-8e2e-104ea885e379	Init Duration: 0.02 ms	Duration: 3041.78 ms	Billed Duration: 3042 ms	Memory Size: 512 MB	Max Memory Used: 512 MB	
 
-START RequestId: 62c1357a-55de-4194-8c87-ce718802240c Version: $LATEST
+START RequestId: 9db22395-fbf4-4eff-b97e-9ba689881ee5 Version: $LATEST
 __  ____  __  _____   ___  __ ____  ______ 
  --/ __ \/ / / / _ | / _ \/ //_/ / / / __/ 
  -/ /_/ / /_/ / __ |/ , _/ ,< / /_/ /\ \   
 --\___\_\____/_/ |_/_/|_/_/|_|\____/___/   
-2024-04-19 18:32:43,486 INFO  [io.quarkus] (main) bedrock-gateway-api 1.0-SNAPSHOT on JVM (powered by Quarkus 3.7.4) started in 1.000s. 
-2024-04-19 18:32:43,488 INFO  [io.quarkus] (main) Profile prod activated. 
-2024-04-19 18:32:43,488 INFO  [io.quarkus] (main) Installed features: [amazon-lambda, cdi, resteasy, resteasy-jsonb, resteasy-multipart, security, smallrye-context-propagation, vertx]
-END RequestId: 3089315c-fba1-4184-b6e2-2a713b00329a
-REPORT RequestId: 3089315c-fba1-4184-b6e2-2a713b00329a	Init Duration: 0.03 ms	Duration: 2533.48 ms	Billed Duration: 2534 ms	Memory Size: 512 MB	Max Memory Used: 512 MB	
+2024-04-20 15:38:05,070 INFO  [io.quarkus] (main) bedrock-gateway-api 1.0-SNAPSHOT on JVM (powered by Quarkus 3.7.4) started in 0.818s. 
+2024-04-20 15:38:05,071 INFO  [io.quarkus] (main) Profile prod activated. 
+2024-04-20 15:38:05,071 INFO  [io.quarkus] (main) Installed features: [amazon-lambda, cdi, resteasy, resteasy-jsonb, resteasy-multipart, security, smallrye-context-propagation, vertx]
+END RequestId: 48ac7b0f-7197-4157-8389-f8e1be2109d6
+REPORT RequestId: 48ac7b0f-7197-4157-8389-f8e1be2109d6	Init Duration: 0.02 ms	Duration: 2874.66 ms	Billed Duration: 2875 ms	Memory Size: 512 MB	Max Memory Used: 512 MB	
+
+START RequestId: 16866beb-d80d-4ef5-bfb0-023ec313c2d1 Version: $LATEST
+__  ____  __  _____   ___  __ ____  ______ 
+ --/ __ \/ / / / _ | / _ \/ //_/ / / / __/ 
+ -/ /_/ / /_/ / __ |/ , _/ ,< / /_/ /\ \   
+--\___\_\____/_/ |_/_/|_/_/|_|\____/___/   
+2024-04-20 15:38:31,787 INFO  [io.quarkus] (main) bedrock-gateway-api 1.0-SNAPSHOT on JVM (powered by Quarkus 3.7.4) started in 0.806s. 
+2024-04-20 15:38:31,788 INFO  [io.quarkus] (main) Profile prod activated. 
+2024-04-20 15:38:31,788 INFO  [io.quarkus] (main) Installed features: [amazon-lambda, cdi, resteasy, resteasy-jsonb, resteasy-multipart, security, smallrye-context-propagation, vertx]
+END RequestId: 75c52a2e-0cb5-4111-85e2-7193c2c77fda
+REPORT RequestId: 75c52a2e-0cb5-4111-85e2-7193c2c77fda	Init Duration: 0.02 ms	Duration: 5307.59 ms	Billed Duration: 5308 ms	Memory Size: 512 MB	Max Memory Used: 512 MB	
 
